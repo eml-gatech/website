@@ -1,21 +1,23 @@
-import React from "react";
-import { Card, CardContent, Typography } from "@material-ui/core";
+import React, { useEffect, useState } from "react";
+import { Card, CardContent, Typography, ButtonBase } from "@material-ui/core";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from "recharts";
 
-const PublicationCard = ({ title, authors, venue, year }) => {
+const PublicationCard = ({ title, authors, venue, year, link }) => {
   return (
     <div>
       <Card>
-        <CardContent>
-          <Typography variant="h5" component="h2">
-            {title}
-          </Typography>
-          <Typography color="textSecondary">{authors}</Typography>
-          <Typography variant="body2" component="p">
-            {venue}
-          </Typography>
-          <Typography color="textSecondary">{year}</Typography>
-        </CardContent>
+        <ButtonBase onClick={event => { window.location.href = `https://scholar.google.com/${link}`}}>
+          <CardContent>
+            <Typography variant="h5" component="h2">
+              {title}
+            </Typography>
+            <Typography color="textSecondary">{authors}</Typography>
+            <Typography variant="body2" component="p">
+              {venue}
+            </Typography>
+            <Typography color="textSecondary">{year}</Typography>
+          </CardContent>
+        </ButtonBase>
       </Card>
       <br/>
     </div>
@@ -40,14 +42,42 @@ const CitationsBarGraph = ({ data }) => {
   );
 };
 
-const ScholarProfile = ({data}) => {
+const ScholarProfile = ({scholarId}) => {
+  const [data, setData] = useState(undefined);
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const response = await fetch(`http://localhost:8001/scholar/${scholarId}`);
+        const dj = await response.json();
+        // console.log(dj);
+        setData(dj);
+      } catch (error) {
+        console.error(error);
+      }
+    }
+
+    fetchData();
+  }, []);
+
+  if (!data) {
+    return <div>Loading...</div>;
+  }
+  
   return (
-    <div>
-      <CitationsBarGraph data={data} />
-      <br/>
-      {data.publications.map((publication: JSX.IntrinsicAttributes & { title: any; authors: any; venue: any; year: any; }, index: React.Key) => (
-        <PublicationCard key={index} {...publication} />
-      ))}
+    <div style={{display: "flex", flexWrap: "wrap-reverse"}}>
+      <div style={{width:"70%", flex: 2}}>
+        <h3>Publications</h3>
+        {data.publications.map((publication: JSX.IntrinsicAttributes & { title: any; authors: any; venue: any; year: any; link: any }, index: React.Key) => (
+          <PublicationCard key={index} {...publication} />
+        ))}
+      </div>
+      <div style={{flex: 1, padding: "0 0 0 20px", border: "2px"}}>
+        <h3>Citations</h3>
+        <CitationsBarGraph data={data} />
+        <h4>h-index: {data.hIndex}</h4>
+        <h4>i-10 index: {data.i10Index}</h4>
+      </div>
     </div>
   );
 };

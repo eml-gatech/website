@@ -62,7 +62,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'research',
+            docId: 'Research/advanced-characterization-techniques',
             position: 'right',
             label: 'Research',
           },
@@ -77,12 +77,6 @@ const config = {
             docId: 'publications',
             position: 'right',
             label: 'Publications',
-          },
-          {
-            type: 'doc',
-            docId: 'teaching',
-            position: 'right',
-            label: 'Teaching',
           },
           {
             type: 'doc',

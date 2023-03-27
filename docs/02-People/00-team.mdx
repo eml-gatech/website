@@ -2,10 +2,14 @@
 id: team
 ---
 
-import teamImage from '../../static/img/people/team.png';
+import TeamMembers from "../../src/components/TeamMembers.tsx";
+import {team} from "../../static/data/team.json";
 
 # Our Team
 
-<img src={teamImage} /> 
+
+
+<TeamMembers team={team}/>
+
 
 
