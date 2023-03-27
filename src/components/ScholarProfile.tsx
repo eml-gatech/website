@@ -48,7 +48,7 @@ const ScholarProfile = ({scholarId}) => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch(`http://localhost:8001/scholar/${scholarId}`);
+        const response = await fetch(`https://baena.gatech.edu/scholar/${scholarId}`);
         const dj = await response.json();
         // console.log(dj);
         setData(dj);
