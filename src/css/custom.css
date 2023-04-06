@@ -71,6 +71,24 @@ padding: 20px 20px 20px 20px;
   }
 
   .hero > .info {
-    width: 200%;
+    width: 100%;
   }
+}
+
+.research-img {
+  display: block;
+  margin-left: 50px;
+  position: inherit;
+  clear: right;
+  width: 300px;
+  padding: 10px;
+  margin-top: -55px;
+}
+
+.hero__title {
+  font-size: 25px;
+}
+
+.hero__subtitle {
+  font-size: 20px;
 }

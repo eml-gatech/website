@@ -42,7 +42,7 @@ const CitationsBarGraph = ({ data }) => {
   );
 };
 
-const ScholarProfile = ({scholarId}) => {
+const ScholarProfile = ({scholarId, showIndex=true}) => {
   const [data, setData] = useState(undefined);
 
   useEffect(() => {
@@ -75,8 +75,13 @@ const ScholarProfile = ({scholarId}) => {
       <div style={{flex: 1, padding: "0 0 0 20px", border: "2px"}}>
         <h3>Citations</h3>
         <CitationsBarGraph data={data} />
-        <h4>h-index: {data.hIndex}</h4>
-        <h4>i-10 index: {data.i10Index}</h4>
+        <h4>Total Citations: {data.total_citations}</h4>
+        { showIndex &&
+          <div>
+            <h4>h-index: {data.hIndex}</h4>
+            <h4>i-10 index: {data.i10Index}</h4>
+          </div>
+        }
       </div>
     </div>
   );

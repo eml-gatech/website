@@ -13,7 +13,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container info">
-        <h1 className="hero__title">{siteConfig.title}</h1>
+        <h3 className="hero__title">{siteConfig.title}</h3>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className="hero__subtitle">
             Our group works on the understanding and design of defects in the bulk and at the interfaces of 
