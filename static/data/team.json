@@ -14,50 +14,57 @@
             "photoUrl": "/img/people/carlo.png",
             "link": "./Research Scientists/carlo"
         },
+        {
+            "id": 2,
+            "name": "Kunal Datta",
+            "designation": "Postdoctoral Researcher",
+            "photoUrl": "/img/people/kunal.jpg",
+            "link": "./Research Scientists/kunal"
+        },
           {
-            "id": 3,
+            "id": 4,
             "name": "Andres Felipe Castro Mendez",
             "designation": "PhD Student",
             "photoUrl": "/img/people/andres.jpg",
             "link": "./Graduate Students/andres"
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Diana LaFollette",
             "designation": "PhD Student",
             "photoUrl": "/img/people/diana.jpg",
             "link": "./Graduate Students/diana"
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Jingwei Yang",
             "designation": "PhD Student",
             "photoUrl": "/img/people/jingwei.png",
             "link": "./Graduate Students/jingwei"
         },
         {
-            "id": 6,
+            "id": 7,
             "name": "Juanita Hidalgo",
             "designation": "PhD Student",
             "photoUrl": "/img/people/juanita.png",
             "link": "./Graduate Students/juanita"
         },
         {
-            "id": 7,
+            "id": 8,
             "name": "Martin Gomez-Dominguez",
             "designation": "PhD Student",
             "photoUrl": "/img/people/martin.jpg",
             "link": "./Graduate Students/martin"
         },
         {
-            "id": 8,
+            "id": 9,
             "name": "Sakshi Sharma",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sakshi.jpg",
             "link": "./Graduate Students/sakshi"
         },
         {
-            "id": 9,
+            "id": 10,
             "name": "Sanggyun Kim",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sanggyun.jpg",
