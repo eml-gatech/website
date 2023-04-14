@@ -42,7 +42,7 @@ const CitationsBarGraph = ({ data }) => {
   );
 };
 
-const ScholarProfile = ({scholarId, showIndex=true}) => {
+const ScholarProfile = ({scholarId, showIndex=true, showTotatCitations=true}) => {
   const [data, setData] = useState(undefined);
 
   useEffect(() => {
@@ -75,7 +75,7 @@ const ScholarProfile = ({scholarId, showIndex=true}) => {
       <div style={{flex: 1, padding: "0 0 0 20px", border: "2px"}}>
         <h3>Citations</h3>
         <CitationsBarGraph data={data} />
-        <h4>Total Citations: {data.total_citations}</h4>
+        { showTotatCitations && <h4>Total Citations: {data.total_citations}</h4> }
         { showIndex &&
           <div>
             <h4>h-index: {data.hIndex}</h4>

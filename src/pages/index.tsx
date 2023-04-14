@@ -22,9 +22,6 @@ function HomepageHeader() {
             deposition methods that allow us to control these materials at the nanoscale.
         </div>
       </div>
-      <div className="container carousel">
-        <MagazineCarousel images={images}/>
-      </div>
     </header>
   );
 }
@@ -40,14 +37,21 @@ export default function Home(): JSX.Element {
       deposition methods that allow us to control these materials at the nanoscale.">
       <HomepageHeader />
       <main>
-        <div className='container'>
-          <h1><p className="heading new_title">News and Updates</p></h1>
-          <div className='tweets'>
-            <TwitterTimelineEmbed
-            sourceType="profile"
-            screenName="BaenaLab"
-            options={{height: 600, width: "100%"}}
-          />
+        <div className="container">
+        <h1><p className="heading new_title">News and Updates</p></h1>
+        </div>
+          <div className="social">
+          <div className="container twitter">
+            <div className='tweets'>
+              <TwitterTimelineEmbed
+              sourceType="profile"
+              screenName="BaenaLab"
+              options={{height: 600, width: "100%"}}
+            />
+            </div>
+          </div>
+          <div className="container carousel">
+            <MagazineCarousel images={images}/>
           </div>
         </div>
       </main>

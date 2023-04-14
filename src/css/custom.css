@@ -47,16 +47,27 @@ box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(30px);
 -webkit-backdrop-filter: blur(0px);
 border: 1px solid rgba(255, 255, 255, 0.13);
-width: 60%;
+width: 80%;
 padding: 20px 20px 20px 20px;
 }
 
-.hero > .carousel {
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 20px 20px 20px 20px;
+}
+
+.carousel {
   width: 30%;
 }
 
+.twitter {
+  width: 50%;
+}
+
 .tweets {
-  width: 100%;
   padding: 0 0 2rem 0;
   margin: 0 auto;
 }
@@ -71,6 +82,10 @@ padding: 20px 20px 20px 20px;
   }
 
   .hero > .info {
+    width: 100%;
+  }
+
+  .twitter {
     width: 100%;
   }
 }
