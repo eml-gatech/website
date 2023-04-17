@@ -42,7 +42,7 @@ const CitationsBarGraph = ({ data }) => {
   );
 };
 
-const ScholarProfile = ({scholarId, showIndex=true, showTotatCitations=true}) => {
+const ScholarProfile = ({scholarId, showIndex=true, showTotatCitations=false}) => {
   const [data, setData] = useState(undefined);
 
   useEffect(() => {
@@ -67,15 +67,17 @@ const ScholarProfile = ({scholarId, showIndex=true, showTotatCitations=true}) =>
   return (
     <div style={{display: "flex", flexWrap: "wrap-reverse"}}>
       <div style={{width:"70%", flex: 2}}>
+        <h4><a href={`https://scholar.google.com/citations?user=${scholarId}&hl=en`}>Go to Google Scholar Profile</a></h4>
         <h3>Publications</h3>
         {data.publications.map((publication: JSX.IntrinsicAttributes & { title: any; authors: any; venue: any; year: any; link: any }, index: React.Key) => (
           <PublicationCard key={index} {...publication} />
         ))}
       </div>
+      { showTotatCitations && 
       <div style={{flex: 1, padding: "0 0 0 20px", border: "2px"}}>
         <h3>Citations</h3>
         <CitationsBarGraph data={data} />
-        { showTotatCitations && <h4>Total Citations: {data.total_citations}</h4> }
+        <h4>Total Citations: {data.total_citations}</h4> 
         { showIndex &&
           <div>
             <h4>h-index: {data.hIndex}</h4>
@@ -83,6 +85,7 @@ const ScholarProfile = ({scholarId, showIndex=true, showTotatCitations=true}) =>
           </div>
         }
       </div>
+      }
     </div>
   );
 };

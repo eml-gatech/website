@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Juan-Pablo Correa-Baena",
-            "designation": "Principle Investigator",
+            "designation": "Princpal Investigator",
             "photoUrl": "/img/people/prof.jpeg",
             "link": "./prof"
         },
@@ -57,18 +57,18 @@
             "link": "./Graduate Students/martin"
         },
         {
-            "id": 9,
-            "name": "Sakshi Sharma",
-            "designation": "Master's Student",
-            "photoUrl": "/img/people/sakshi.jpg",
-            "link": "./Graduate Students/sakshi"
-        },
-        {
             "id": 10,
             "name": "Sanggyun Kim",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sanggyun.jpg",
             "link": "./Graduate Students/sanggyun"
+        },
+        {
+            "id": 9,
+            "name": "Sakshi Sharma",
+            "designation": "MS Student",
+            "photoUrl": "/img/people/sakshi.jpg",
+            "link": "./Graduate Students/sakshi"
         }
     ]
 }
