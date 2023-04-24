@@ -13,7 +13,7 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
        <div className="hero__title">{siteConfig.title}</div>
-       <div className="hero__prof">By Dr. Juan-Pablo Correa-Baena</div>
+       <div className="hero__prof">Prof. Juan-Pablo Correa-Baena</div>
     </header>
   );
 }
