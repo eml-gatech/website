@@ -24,6 +24,11 @@
   --ifm-font-family-base: CustomFont;
 }
 
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #b3a369;
@@ -34,6 +39,7 @@
   --ifm-color-primary-lighter: #c1b485;
   --ifm-color-primary-lightest: #c0b383;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-h1-font-size: 1rem;
 }
 
 .hero {
@@ -99,14 +105,11 @@ padding: 20px 20px 20px 20px;
   }
 }
 
-#research-img {
+.research-img {
   display: block;
-  margin-left: 50px;
-  position: inherit;
-  clear: right;
-  width: 300px;
-  padding: 10px;
-  margin-top: -55px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
 }
 
 .hero__title {
