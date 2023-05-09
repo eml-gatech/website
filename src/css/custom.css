@@ -118,6 +118,7 @@ padding: 20px 20px 20px 20px;
   text-align: right;
   width: 98%;
   height: 100px;
+  display: table;
 }
 
 .hero__prof {
