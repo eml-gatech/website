@@ -69,6 +69,20 @@
             "designation": "MS Student",
             "photoUrl": "/img/people/sakshi.jpg",
             "link": "./Graduate Students/sakshi"
+        },
+        {
+            "id": 11,
+            "name": "Jack Lawton",
+            "designation": "PhD Student",
+            "photoUrl": "/img/people/jack.jpg",
+            "link": "./Graduate Students/jack"
+        },
+        {
+            "id": 12,
+            "name": "Donghyun Oh",
+            "designation": "PhD Student",
+            "photoUrl": "/img/people/donghyun.jpg",
+            "link": "./Graduate Students/donghyun"
         }
     ]
 }
