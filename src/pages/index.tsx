@@ -28,6 +28,7 @@ export default function Home(): JSX.Element {
       and chemical composition in semiconductors affect electronic defect formation and strive to design 
       deposition methods that allow us to control these materials at the nanoscale.">
       <HomepageHeader />
+      <button className="arrow" style={{fontSize: "35px", fontWeight: "bold", height: "10vh", background: "#fff"}} onClick={() => window.scrollTo({top: 1000, behavior: 'smooth'})}>▿</button>
       <main>
         <div className="container">
           <br/>

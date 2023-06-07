@@ -48,7 +48,7 @@ h1 {
   background-size: cover;
   color: #ffffff;
   background-color: #ffffff00;
-  height: 100vh;
+  height: 82vh;
   padding-top: 40px;
 }
 
@@ -147,4 +147,10 @@ padding: 20px 20px 20px 20px;
   color: black;
   background: #847643;
   border-radius: 100%;
+}
+
+.arrow {
+  font-size: "35px";
+  height: "10vh"; 
+  background: "#fff"
 }

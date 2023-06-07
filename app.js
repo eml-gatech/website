@@ -25,7 +25,7 @@ app.get('/scholar/:id', (req, res) => {
     const $ = cheerio.load(html);
     const totalCitations = $('#gsc_rsb_st > tbody > tr:nth-child(1) > td:nth-child(2)').text().trim();
     const hIndex = $('.gsc_rsb_std').eq(2).text();
-    const i10Index = $('.gsc_rsb_std').eq(3).text();
+    const i10Index = $('#gsc_rsb_st > tbody > tr:nth-child(3) > td:nth-child(2)').text().trim();
     const years = $('.gsc_g_t').map((i, el) => $(el).text().trim()).get();
     const counts = $('.gsc_g_al').map((i, el) => $(el).text().trim()).get();
     const citationYears = years.reduce((acc, curr, i) => {

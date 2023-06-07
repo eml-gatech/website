@@ -57,32 +57,39 @@
             "link": "./Graduate Students/martin"
         },
         {
-            "id": 10,
+            "id": 9,
             "name": "Sanggyun Kim",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sanggyun.jpg",
             "link": "./Graduate Students/sanggyun"
         },
         {
-            "id": 9,
-            "name": "Sakshi Sharma",
-            "designation": "MS Student",
-            "photoUrl": "/img/people/sakshi.jpg",
-            "link": "./Graduate Students/sakshi"
-        },
-        {
-            "id": 11,
+            "id": 10,
             "name": "Jack Lawton",
             "designation": "PhD Student",
             "photoUrl": "/img/people/jack.jpg",
             "link": "./Graduate Students/jack"
         },
         {
-            "id": 12,
+            "id": 11,
             "name": "Donghyun Oh",
             "designation": "PhD Student",
             "photoUrl": "/img/people/donghyun.jpg",
             "link": "./Graduate Students/donghyun"
+        },
+        {
+            "id": 12,
+            "name": "Sakshi Sharma",
+            "designation": "MS Student",
+            "photoUrl": "/img/people/sakshi.jpg",
+            "link": "./Graduate Students/sakshi"
+        },
+        {
+            "id": 13,
+            "name": "Amey Parundekar",
+            "designation": "Graduate Assistant",
+            "photoUrl": "/img/people/amey.jpeg",
+            "link": "./Graduate Students/amey"
         }
     ]
 }
