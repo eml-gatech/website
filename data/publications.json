@@ -1,0 +1,155 @@
+{
+  "total_citations": 31096,
+  "citations_per_year": {
+    "2016": 1028,
+    "2017": 3478,
+    "2018": 4996,
+    "2019": 4934,
+    "2020": 5166,
+    "2021": 5052,
+    "2022": 5203,
+    "2023": 1010
+  },
+  "publications": [
+    {
+      "title": "Vapor-Deposited n = 2 Ruddlesden-Popper Interface Layers Aid Charge Carrier Extraction in Perovskite Solar Cells",
+      "authors": "CAR Perini, AF Castro-Mendez, T Kodalle, M Ravello, J Hidalgo, ...",
+      "venue": "ACS Energy Letters 8, 1408-1415, 2023",
+      "citations": 0,
+      "year": 2023
+    },
+    {
+      "title": "Vapor Phase Infiltration Improves Thermal Stability of Organic Layers in Perovskite Solar Cells",
+      "authors": "AF Castro-Mendez, JP Wooding, S Fairach, CAR Perini, EK McGuinness, ...",
+      "venue": "ACS Energy Letters 8, 844-852, 2023",
+      "citations": 0,
+      "year": 2023
+    },
+    {
+      "title": "Interface Reconstruction from Ruddlesden-Popper Structures Impacts Stability in Lead Halide Perovskite Solar Cells (Adv. Mater. 51/2022)",
+      "authors": "CAR Perini, E Rojas&#8208;Gatjens, M Ravello, AF Castro&#8208;Mendez, J Hidalgo, ...",
+      "venue": "Advanced Materials 34 (51), 2270350, 2022",
+      "citations": 0,
+      "year": 2022
+    },
+    {
+      "title": "Interface Reconstruction from Ruddlesden-Popper Structures Impacts Stability in Lead Halide Perovskite Solar Cells",
+      "authors": "CAR Perini, E Rojas&#8208;Gatjens, M Ravello, AF Castro&#8208;Mendez, J Hidalgo, ...",
+      "venue": "Advanced Materials, 2204726, 2022",
+      "citations": 3,
+      "year": 2022
+    },
+    {
+      "title": "Effects of Alkaline Earth Metal Additives on Methylammonium-Free Lead Halide Perovskite Thin Films and Solar Cells",
+      "authors": "H Yuce, DK LaFollette, MM Demir, CAR Perini, JP Correa-Baena",
+      "venue": "Solar RRL 6 (8), 2100999, 2022",
+      "citations": 1,
+      "year": 2022
+    },
+    {
+      "title": "Formation of a Secondary Phase in Thermally Evaporated MAPbI3 and Its Effects on Solar Cell Performance",
+      "authors": "AF Castro-Méndez, CAR Perini, J Hidalgo, D Ranke, JN Vagott, Y An, ...",
+      "venue": "ACS Applied Materials &amp; Interfaces 14 (30), 34269-34280, 2022",
+      "citations": 1,
+      "year": 2022
+    },
+    {
+      "title": "PbI2 Nanocrystal Growth by Atomic Layer Deposition from Pb(tmhd)2 and HI",
+      "authors": "JN Vagott, K Bairley, J Hidalgo, CAR Perini, AF Castro-Méndez, ...",
+      "venue": "Chemistry of Materials 34 (6), 2553-2561, 2022",
+      "citations": 2,
+      "year": 2022
+    },
+    {
+      "title": "PbI2 nanocrystal growth by atomic layer deposition of Pb (tmhd) 2 and HI",
+      "authors": "JP Correa-Baena, J Vagott, K Bairley, CAR Perini, AFC Mendez, ...",
+      "venue": "",
+      "citations": 0,
+      "year": 2022
+    },
+    {
+      "title": "Understanding the Role of Cesium on Chemical Complexity in Methylammonium&#8208;Free Metal Halide Perovskites",
+      "authors": "J Yang, DK LaFollette, BJ Lawrie, AV Ievlev, Y Liu, KP Kelley, SV Kalinin, ...",
+      "venue": "Advanced Energy Materials, 2202880, 2022",
+      "citations": 0,
+      "year": 2022
+    },
+    {
+      "title": "Carrier transfer across interfaces in metal halide perovskite",
+      "authors": "JP Correa-Baena",
+      "venue": "APS March Meeting Abstracts 2022, B69. 001, 2022",
+      "citations": 0,
+      "year": 2022
+    },
+    {
+      "title": "An open-access database and analysis tool for perovskite solar cells based on the FAIR data principles",
+      "authors": "TJ Jacobsson, A Hultqvist, A García-Fernández, A Anand, A Al-Ashouri, ...",
+      "venue": "Nature Energy 7 (1), 107-115, 2022",
+      "citations": 61,
+      "year": 2022
+    },
+    {
+      "title": "Understanding the impact of SrI2 additive on the properties of Sn-based halide perovskites",
+      "authors": "H Yuce, CAR Perini, J Hidalgo, AF Castro-Méndez, C Evans, PF Betancur, ...",
+      "venue": "Optical Materials 123, 111806, 2022",
+      "citations": 7,
+      "year": 2022
+    },
+    {
+      "title": "The role of dimensionality on the optoelectronic properties of oxide and halide perovskites, and their halide derivatives",
+      "authors": "RLZ Hoye, J Hidalgo, RA Jagt, JP Correa-Baena, T Fix, ...",
+      "venue": "Advanced Energy Materials 12 (4), 2100499, 2022",
+      "citations": 35,
+      "year": 2022
+    },
+    {
+      "title": "35 challenges in materials science being tackled by PIs under 35 (ish) in 2021",
+      "authors": "B Aguado, LJ Bray, S Caneva, JP Correa-Baena, G Di Martino, C Fang, ...",
+      "venue": "Matter 4 (12), 3804-3810, 2021",
+      "citations": 0,
+      "year": 2021
+    },
+    {
+      "title": "Multi&#8208;cation Hybrid Perovskite Solar Cells",
+      "authors": "JN Vagott, JP Correa&#8208;Baena",
+      "venue": "Hybrid Perovskite Solar Cells: Characteristics and Operation, 339-371, 2021",
+      "citations": 0,
+      "year": 2021
+    },
+    {
+      "title": "Identifying high performance and durable methylammonium-free lead halide perovskites through high throughput synthesis and characterization",
+      "authors": "Y An, CAR Perini, J Hidalgo, AF Castro-Méndez, R Li, WA Saidi, S Wang, ...",
+      "venue": "",
+      "citations": 0,
+      "year": 2021
+    },
+    {
+      "title": "Preventing bulky cation diffusion in lead halide perovskite solar cells",
+      "authors": "CAR Perini, E Rojas-Gatjens, M Rovello, AFC Mendez, J Hidalgo, Y An, ...",
+      "venue": "",
+      "citations": 0,
+      "year": 2021
+    },
+    {
+      "title": "Interfacial design in metal halide perovskites",
+      "authors": "JP Correa-Baena",
+      "venue": "Organic, Hybrid, and Perovskite Photovoltaics XXII 11809, 118090X, 2021",
+      "citations": 0,
+      "year": 2021
+    },
+    {
+      "title": "Pressing challenges in halide perovskite photovoltaics-from the atomic to module level",
+      "authors": "CAR Perini, TAS Doherty, SD Stranks, JP Correa-Baena, RLZ Hoye",
+      "venue": "Joule 5 (5), 1024-1030, 2021",
+      "citations": 17,
+      "year": 2021
+    },
+    {
+      "title": "Structural stability of formamidinium-and cesium-based halide perovskites",
+      "authors": "Y An, J Hidalgo, CAR Perini, AF Castro-Mendez, JN Vagott, K Bairley, ...",
+      "venue": "ACS energy letters 6 (5), 1942-1969, 2021",
+      "citations": 44,
+      "year": 2021
+    }
+  ]
+}
