@@ -79,13 +79,41 @@
         },
         {
             "id": 12,
+            "name": "Khari Fletcher",
+            "designation": "PhD Student",
+            "photoUrl": "/img/people/khari.png",
+            "link": "./Graduate Students/khari"
+        },
+        {
+            "id": 13,
+            "name": "Connor Davel",
+            "designation": "PhD Student",
+            "photoUrl": "/img/people/connor.jpg",
+            "link": "./Graduate Students/connor"
+        },
+        {
+            "id": 14,
+            "name": "Rock Huebner",
+            "designation": "PhD Student",
+            "photoUrl": "/img/people/rock.png",
+            "link": "./Graduate Students/rock"
+        },
+        {
+            "id": 15,
+            "name": "Donghoon Song",
+            "designation": "PhD Student",
+            "photoUrl": "/img/people/donghoon.png",
+            "link": "./Graduate Students/donghoon"
+        },
+        {
+            "id": 16,
             "name": "Sakshi Sharma",
             "designation": "MS Student",
             "photoUrl": "/img/people/sakshi.jpg",
             "link": "./Graduate Students/sakshi"
         },
         {
-            "id": 13,
+            "id": 17,
             "name": "Amey Parundekar",
             "designation": "Graduate Assistant",
             "photoUrl": "/img/people/amey.jpeg",
