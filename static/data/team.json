@@ -15,95 +15,95 @@
             "link": "./Research Scientists/carlo"
         },
         {
-            "id": 2,
+            "id": 3,
+            "name": "Donghoon Song",
+            "designation": "Research Scientist",
+            "photoUrl": "/img/people/donghoon.png",
+            "link": "./Research Scientists/donghoon"
+        },
+        {
+            "id": 4,
             "name": "Kunal Datta",
             "designation": "Postdoctoral Researcher",
             "photoUrl": "/img/people/kunal.jpg",
             "link": "./Post Doctoral Researchers/kunal"
         },
-          {
-            "id": 4,
+        {
+            "id": 5,
             "name": "Andres Felipe Castro Mendez",
             "designation": "PhD Student",
             "photoUrl": "/img/people/andres.jpg",
             "link": "./Graduate Students/andres"
         },
         {
-            "id": 5,
+            "id": 6,
             "name": "Diana LaFollette",
             "designation": "PhD Student",
             "photoUrl": "/img/people/diana.jpg",
             "link": "./Graduate Students/diana"
         },
         {
-            "id": 6,
+            "id": 7,
             "name": "Jingwei Yang",
             "designation": "PhD Student",
             "photoUrl": "/img/people/jingwei.png",
             "link": "./Graduate Students/jingwei"
         },
         {
-            "id": 7,
+            "id": 8,
             "name": "Juanita Hidalgo",
             "designation": "PhD Student",
             "photoUrl": "/img/people/juanita.png",
             "link": "./Graduate Students/juanita"
         },
         {
-            "id": 8,
+            "id": 9,
             "name": "Martin Gomez-Dominguez",
             "designation": "PhD Student",
             "photoUrl": "/img/people/martin.jpg",
             "link": "./Graduate Students/martin"
         },
         {
-            "id": 9,
+            "id": 10,
             "name": "Sanggyun Kim",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sanggyun.jpg",
             "link": "./Graduate Students/sanggyun"
         },
         {
-            "id": 10,
+            "id": 11,
             "name": "Jack Lawton",
             "designation": "PhD Student",
             "photoUrl": "/img/people/jack.jpg",
             "link": "./Graduate Students/jack"
         },
         {
-            "id": 11,
+            "id": 12,
             "name": "Donghyun Oh",
             "designation": "PhD Student",
             "photoUrl": "/img/people/donghyun.jpg",
             "link": "./Graduate Students/donghyun"
         },
         {
-            "id": 12,
+            "id": 13,
             "name": "Khari Fletcher",
             "designation": "PhD Student",
             "photoUrl": "/img/people/khari.png",
             "link": "./Graduate Students/khari"
         },
         {
-            "id": 13,
+            "id": 14,
             "name": "Connor Davel",
             "designation": "PhD Student",
             "photoUrl": "/img/people/connor.jpg",
             "link": "./Graduate Students/connor"
         },
         {
-            "id": 14,
+            "id": 15,
             "name": "Rock Huebner",
             "designation": "PhD Student",
             "photoUrl": "/img/people/rock.png",
             "link": "./Graduate Students/rock"
-        },
-        {
-            "id": 15,
-            "name": "Donghoon Song",
-            "designation": "PhD Student",
-            "photoUrl": "/img/people/donghoon.png",
-            "link": "./Graduate Students/donghoon"
         },
         {
             "id": 16,
