@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import MagazineCarousel from '../components/MagazineCarousel';
 import styles from './index.module.css';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import { TwitterTimelineEmbed, TwitterTweetEmbed } from 'react-twitter-embed';
 // @ts-ignore
 import {images} from '../../static/data/homepage_carousel.json';
 
@@ -44,11 +44,14 @@ export default function Home(): JSX.Element {
         <div className="social">
           <div className="container twitter">
             <div className='tweets'>
-              <TwitterTimelineEmbed
+              {/* <TwitterTimelineEmbed
               sourceType="profile"
               screenName="BaenaLab"
               options={{height: 600, width: "100%"}}
-            />
+            /> */}
+              <TwitterTweetEmbed
+                tweetId={'1737148383700328892'}
+              />
             </div>
           </div>
           <div className="container carousel">
