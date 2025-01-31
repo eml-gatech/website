@@ -34,7 +34,7 @@ const CitationsBarGraph = ({ data }) => {
     <BarChart width={350} height={300} data={graphData}>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="year" />
-      <YAxis />
+      <YAxis domain={[0, 6000]} />
       <Tooltip />
       <Legend />
       <Bar dataKey="citations" fill="#b3a369" />

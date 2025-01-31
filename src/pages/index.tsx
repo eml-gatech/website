@@ -50,7 +50,7 @@ export default function Home(): JSX.Element {
               options={{height: 600, width: "100%"}}
             /> */}
               <TwitterTweetEmbed
-                tweetId={'1737148383700328892'}
+                tweetId={'1863084840037335101'}
               />
             </div>
           </div>
