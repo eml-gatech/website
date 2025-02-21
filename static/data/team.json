@@ -102,8 +102,8 @@
             "id": 15,
             "name": "Amanda Conde Del Moral",
             "designation": "PhD Student",
-            "photoUrl": "",
-            "link": ""
+            "photoUrl": "/img/people/amanda.jpg",
+            "link": "./Graduate Students/amanda"
         },
         {
             "id": 16,
@@ -116,8 +116,8 @@
             "id": 17,
             "name": "Chudi Yue",
             "designation": "PhD Student",
-            "photoUrl": "",
-            "link": ""
+            "photoUrl": "/img/people/chudi.jpg",
+            "link": "./Graduate Students/chudi"
         }
     ]
 }
