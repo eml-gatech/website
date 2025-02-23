@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import MagazineCarousel from '../components/MagazineCarousel';
 import styles from './index.module.css';
 import { TwitterTimelineEmbed, TwitterTweetEmbed } from 'react-twitter-embed';
+import { BskyPost } from 'bsky-react-post';
 // @ts-ignore
 import {images} from '../../static/data/homepage_carousel.json';
 
@@ -52,6 +53,7 @@ export default function Home(): JSX.Element {
               <TwitterTweetEmbed
                 tweetId={'1863084840037335101'}
               />
+              {/* <BskyPost url="https://bsky.app/profile/jpcorreabaena.bsky.social/post/3lfvpovmyqk2j" /> */}
             </div>
           </div>
           <div className="container carousel">

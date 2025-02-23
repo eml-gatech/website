@@ -10,11 +10,17 @@ export interface CustomImage extends Image {
 export const images: CustomImage[] = [
   {src:"/img/lab/1.JPG",width: 518, height: 388,original:"/img/lab/1.JPG"},
   {src:"/img/lab/2.JPG",width: 518, height: 388,original:"/img/lab/2.JPG"},
-  {src:"/img/lab/3.JPG",width: 388, height: 518,original:"/img/lab/3.JPG"},
-  {src:"/img/lab/4.JPG",width: 388, height: 518,original:"/img/lab/4.JPG"},
+  {src:"/img/lab/3.JPG",width: 518, height: 388,original:"/img/lab/3.JPG"},
+  {src:"/img/lab/4.JPG",width: 518, height: 388,original:"/img/lab/4.JPG"},
   {src:"/img/lab/5.JPG",width: 518, height: 388,original:"/img/lab/5.JPG"},
   {src:"/img/lab/6.JPG",width: 518, height: 388,original:"/img/lab/6.JPG"},
-  {src:"/img/lab/7.JPG",width: 404, height: 345,original:"/img/lab/7.JPG"}
+  {src:"/img/lab/7.JPG",width: 518, height: 388,original:"/img/lab/7.JPG"},
+  {src:"/img/lab/8.JPG",width: 518, height: 388,original:"/img/lab/8.JPG"},
+  {src:"/img/lab/9.JPG",width: 388, height: 518,original:"/img/lab/9.JPG"},
+  {src:"/img/lab/10.JPG",width: 388, height: 518,original:"/img/lab/10.JPG"},
+  {src:"/img/lab/11.JPG",width: 518, height: 388,original:"/img/lab/11.JPG"},
+  {src:"/img/lab/12.JPG",width: 518, height: 388,original:"/img/lab/12.JPG"},
+  {src:"/img/lab/13.JPG",width: 404, height: 345,original:"/img/lab/13.JPG"}
 ]
 
 export default function ReactGrid() {
