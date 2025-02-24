@@ -30,11 +30,14 @@ const CitationsBarGraph = ({ data }) => {
     citations,
   }));
 
+  // Compute the maximum citations across all years
+  const maxCitations = Math.max(...graphData.map(item => item.citations));
+
   return (
     <BarChart width={350} height={300} data={graphData}>
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="year" />
-      <YAxis />
+      <YAxis domain={[0, maxCitations]}/>
       <Tooltip />
       <Legend />
       <Bar dataKey="citations" fill="#b3a369" />
