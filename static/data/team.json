@@ -5,91 +5,91 @@
             "name": "Juan-Pablo Correa-Baena",
             "designation": "Principal Investigator",
             "photoUrl": "/img/people/juanpablo.jpg",
-            "link": "./prof"
+            "link": "/docs/People/prof"
         },
         {
             "id": 2,
             "name": "Carlo Perini",
             "designation": "Research Scientist",
             "photoUrl": "/img/people/carlo.png",
-            "link": "./Research Scientists/carlo"
+            "link": "/docs/People/Research Scientists/carlo"
         },
         {
             "id": 3,
             "name": "Cristina L\u00F3pez-Pern\u00EDa",
             "designation": "Research Scientist",
             "photoUrl": "/img/people/cristina.png",
-            "link": "./Research Scientists/cristina"
+            "link": "/docs/People/Research Scientists/cristina"
         },
         {
             "id": 4,
             "name": "Kunal Datta",
             "designation": "Postdoctoral Researcher",
             "photoUrl": "/img/people/kunal.jpg",
-            "link": "./Post Doctoral Researchers/kunal"
+            "link": "/docs/People/Post Doctoral Researchers/kunal"
         },
         {
             "id": 5,
             "name": "Diana LaFollette",
             "designation": "PhD Student",
             "photoUrl": "/img/people/diana.jpg",
-            "link": "./Graduate Students/diana"
+            "link": "/docs/People/Graduate Students/diana"
         },
         {
             "id": 6,
             "name": "Jingwei Yang",
             "designation": "PhD Student",
             "photoUrl": "/img/people/jingwei.png",
-            "link": "./Graduate Students/jingwei"
+            "link": "/docs/People/Graduate Students/jingwei"
         },
         {
             "id": 7,
             "name": "Martin Gomez-Dominguez",
             "designation": "PhD Student",
             "photoUrl": "/img/people/martin.jpg",
-            "link": "./Graduate Students/martin"
+            "link": "/docs/People/Graduate Students/martin"
         },
         {
             "id": 8,
             "name": "Sanggyun Kim",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sanggyun.jpg",
-            "link": "./Graduate Students/sanggyun"
+            "link": "/docs/People/Graduate Students/sanggyun"
         },
         {
             "id": 9,
             "name": "Jack Lawton",
             "designation": "PhD Student",
             "photoUrl": "/img/people/jack.jpg",
-            "link": "./Graduate Students/jack"
+            "link": "/docs/People/Graduate Students/jack"
         },
         {
             "id": 10,
             "name": "Donghyun Oh",
             "designation": "PhD Student",
             "photoUrl": "/img/people/donghyun.jpg",
-            "link": "./Graduate Students/donghyun"
+            "link": "/docs/People/Graduate Students/donghyun"
         },
         {
             "id": 11,
             "name": "Khari Fletcher",
             "designation": "PhD Student",
             "photoUrl": "/img/people/khari.png",
-            "link": "./Graduate Students/khari"
+            "link": "/docs/People/Graduate Students/khari"
         },
         {
             "id": 12,
             "name": "Connor Davel",
             "designation": "PhD Student",
             "photoUrl": "/img/people/connor.jpg",
-            "link": "./Graduate Students/connor"
+            "link": "/docs/People/Graduate Students/connor"
         },
         {
             "id": 13,
             "name": "Sakshi Sharma",
             "designation": "PhD Student",
             "photoUrl": "/img/people/sakshi.jpg",
-            "link": "./Graduate Students/sakshi"
+            "link": "/docs/People/Graduate Students/sakshi"
         },
         {
             "id": 14,
@@ -103,28 +103,28 @@
             "name": "Amanda Conde Del Moral",
             "designation": "PhD Student",
             "photoUrl": "/img/people/amanda.jpg",
-            "link": "./Graduate Students/amanda"
+            "link": "/docs/People/Graduate Students/amanda"
         },
         {
             "id": 16,
             "name": "Ahmed Mohamed",
             "designation": "PhD Student",
             "photoUrl": "/img/people/ahmed.png",
-            "link": "./Graduate Students/ahmed"
+            "link": "/docs/People/Graduate Students/ahmed"
         },
         {
             "id": 17,
             "name": "Chudi Yue",
             "designation": "PhD Student",
             "photoUrl": "/img/people/chudi.jpg",
-            "link": "./Graduate Students/chudi"
+            "link": "/docs/People/Graduate Students/chudi"
         },
         {
             "id": 18,
             "name": "Leonardo Josu\u00E9 Lugo Salas",
             "designation": "Masters Student",
             "photoUrl": "/img/people/leo.jpg",
-            "link": "./Graduate Students/leo"
+            "link": "/docs/People/Graduate Students/leo"
         }
     ]
 }
