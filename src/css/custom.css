@@ -46,6 +46,7 @@ h1 {
   display: block;
   background-image: url("/static/img/solar_cell_close_up.jpg");
   background-size: cover;
+  background-position: 30% 10%;
   color: #ffffff;
   background-color: #ffffff00;
   height: 82vh;
